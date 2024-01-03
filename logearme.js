@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('token', data.jwt);
 
                 // Redirige al usuario a una página ficticia de inicio.
-                window.location.href = 'html/Dashboard.html';
+                window.location.href = 'MenuDashboard/html/Dashboard.html';
             } else {
                 console.error('Error de inicio de sesión');
             }
